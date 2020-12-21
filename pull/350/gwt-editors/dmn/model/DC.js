@@ -118,11 +118,11 @@ var DC_Module_Factory = function () {
         typeInfo: '.Bounds',
         elementName: 'Bounds'
       }, {
-        typeInfo: '.Dimension',
-        elementName: 'Dimension'
-      }, {
         typeInfo: '.Point',
         elementName: 'Point'
+      }, {
+        typeInfo: '.Dimension',
+        elementName: 'Dimension'
       }]
   };
   return {
