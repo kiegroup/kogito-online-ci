@@ -14,6 +14,22 @@ var DI_Module_Factory = function () {
             type: 'anyElement'
           }]
       }, {
+        localName: 'Style',
+        propertyInfos: [{
+            name: 'otherAttributes',
+            type: 'anyAttribute'
+          }, {
+            name: 'extension',
+            typeInfo: '.Style.Extension'
+          }, {
+            name: 'id',
+            typeInfo: 'ID',
+            attributeName: {
+              localPart: 'id'
+            },
+            type: 'attribute'
+          }]
+      }, {
         localName: 'Diagram',
         baseTypeInfo: '.DiagramElement',
         propertyInfos: [{
@@ -40,6 +56,20 @@ var DI_Module_Factory = function () {
             type: 'attribute'
           }]
       }, {
+        localName: 'Shape',
+        baseTypeInfo: '.DiagramElement',
+        propertyInfos: [{
+            name: 'otherAttributes',
+            type: 'anyAttribute'
+          }, {
+            name: 'bounds',
+            elementName: {
+              localPart: 'Bounds',
+              namespaceURI: 'http:\/\/www.omg.org\/spec\/DMN\/20180521\/DC\/'
+            },
+            typeInfo: 'DC.Bounds'
+          }]
+      }, {
         localName: 'Edge',
         baseTypeInfo: '.DiagramElement',
         propertyInfos: [{
@@ -50,22 +80,6 @@ var DI_Module_Factory = function () {
             minOccurs: 0,
             collection: true,
             typeInfo: 'DC.Point'
-          }]
-      }, {
-        localName: 'Style',
-        propertyInfos: [{
-            name: 'otherAttributes',
-            type: 'anyAttribute'
-          }, {
-            name: 'extension',
-            typeInfo: '.Style.Extension'
-          }, {
-            name: 'id',
-            typeInfo: 'ID',
-            attributeName: {
-              localPart: 'id'
-            },
-            type: 'attribute'
           }]
       }, {
         localName: 'DiagramElement',
@@ -96,20 +110,6 @@ var DI_Module_Factory = function () {
               localPart: 'id'
             },
             type: 'attribute'
-          }]
-      }, {
-        localName: 'Shape',
-        baseTypeInfo: '.DiagramElement',
-        propertyInfos: [{
-            name: 'otherAttributes',
-            type: 'anyAttribute'
-          }, {
-            name: 'bounds',
-            elementName: {
-              localPart: 'Bounds',
-              namespaceURI: 'http:\/\/www.omg.org\/spec\/DMN\/20180521\/DC\/'
-            },
-            typeInfo: 'DC.Bounds'
           }]
       }, {
         localName: 'DiagramElement.Extension',
