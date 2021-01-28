@@ -1,1 +1,0 @@
-$wnd.org_kie_workbench_common_stunner_kogito_KogitoBPMNEditor.runAsyncCallback1("var J8c=Boi(U0D,'RunAsyncCallback');JOh(16546,1,{16856:1});_.jq=function $dm(){null.Cib()};var X0d=zoi(RLE,'AsyncBeanFactory/1',16546,nmd);V_D(jrc)(1);\n//# sourceURL=org.kie.workbench.common.stunner.kogito.KogitoBPMNEditor-1.js\n")
