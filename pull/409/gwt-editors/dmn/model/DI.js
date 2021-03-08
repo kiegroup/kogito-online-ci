@@ -4,16 +4,6 @@ var DI_Module_Factory = function () {
     defaultElementNamespaceURI: 'http:\/\/www.omg.org\/spec\/DMN\/20180521\/DI\/',
     dependencies: ['DC'],
     typeInfos: [{
-        localName: 'DiagramElement.Extension',
-        typeName: null,
-        propertyInfos: [{
-            name: 'any',
-            minOccurs: 0,
-            collection: true,
-            mixed: false,
-            type: 'anyElement'
-          }]
-      }, {
         localName: 'DiagramElement',
         propertyInfos: [{
             name: 'otherAttributes',
@@ -106,6 +96,16 @@ var DI_Module_Factory = function () {
               localPart: 'id'
             },
             type: 'attribute'
+          }]
+      }, {
+        localName: 'DiagramElement.Extension',
+        typeName: null,
+        propertyInfos: [{
+            name: 'any',
+            minOccurs: 0,
+            collection: true,
+            mixed: false,
+            type: 'anyElement'
           }]
       }, {
         localName: 'Shape',
