@@ -1,1 +1,0 @@
-$wnd.org_kie_workbench_common_dmn_showcase_DMNKogitoRuntimeWebapp.runAsyncCallback1("var zTc=mNh(cmA,'RunAsyncCallback');Xeh(15622,1,{15780:1});_.Wm=function M0j(){null.cbb()};var lud=kNh(MMA,'AsyncBeanFactory/1',15622,d4c);IkA(Ncc)(1);\n//# sourceURL=org.kie.workbench.common.dmn.showcase.DMNKogitoRuntimeWebapp-1.js\n")
